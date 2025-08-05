@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+- story: Reserva cita OK
+  steps:
+  - intent: Saludo
+  - action: utter_saludo
+  - intent: Solicitar_cita
+  - action: utter_pregunta_servicio_cita
+  - intent: Servicio
+  - action: utter_pregunta_horario_cita
+  - intent: Fecha_hora
+  - action: utter_agenda_cita
+  - intent: Despedida
+  - action: utter_despedida
+
+- story: Reserva cita NOT OK 1
+  steps:
+  - action: utter_saludo
+  - intent: Otro
+  - action: utter_respuesta_predeterminada
+
+- story: Reserva cita NOT OK 2
+  steps:
+  - action: utter_pregunta_servicio_cita
+  - intent: Otro
+  - action: utter_respuesta_predeterminada
+
+- story: Reserva cita NOT OK 3
+  steps:
+  - action: utter_pregunta_horario_cita
+  - intent: Otro
+  - action: utter_respuesta_predeterminada

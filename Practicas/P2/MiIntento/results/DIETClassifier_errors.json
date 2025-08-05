@@ -1,0 +1,33 @@
+[
+  {
+    "text": "¿Cuánto cuesta una revisión del vehículo?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "tipo_cita",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.7100813984870911,
+        "value": "revisión",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "¿El taller está abierto a las 14:00?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "hora",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.854157030582428,
+        "value": "14:00",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

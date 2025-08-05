@@ -1,0 +1,56 @@
+version: "3.1"
+
+nlu:
+- intent: Saludo
+  examples: |
+    - ¡Hola!
+    - Buenos días, ¿cómo va todo por aquí?
+    - Hola, ¿puedes ayudarme con una pregunta?
+    - Hola, ¿hay alguien ahí?
+    - Buen día, ¿está disponible alguien para atenderme?
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
+    - Hola, buenos días.
+    - ¡Hola! ¿Cómo estás?
+
+- intent: Despedida
+  examples: |
+    - Adios
+    - Chao
+    - Hasta luego
+    - Nos vemos
+    - Hasta pronto
+    - Hasta mañana
+    - Buen día. Cierro la conversación por ahora.
+    - Eso es todo por ahora. ¡Hasta luego!
+    - Gracias por tu ayuda. ¡Adiós!
+    - Ha sido un placer hablar contigo. ¡Adiós por ahora!
+    - Eso es todo por ahora. ¡Adiós!
+    - Gracias por tu ayuda. ¡Hasta luego!
+
+- intent: Solicitar_cita
+  examples: |
+    - Me gustaría reservar una cita
+    - Quiero reservar una cita
+    - Una cita
+    - ¿Podría agendar una cita?
+    - Necesito una cita
+
+- intent: Servicio
+  examples: |
+    - [Revisión](tipo_servicio)
+    - [revisión](tipo_servicio)
+    - [Reparación](tipo_servicio)
+    - [reparación](tipo_servicio)
+    - [Cambio de aceite](tipo_servicio)
+    - [cambio de aceite](tipo_servicio)
+
+- intent: Fecha_hora
+  examples: |
+    - A las [17:00](hora) el día [20/05/2024](fecha)
+    - El [09/05/2024](fecha) a las [9:00](hora)
+    - Puedo el [13/10/2024](fecha) a las [16:00](hora)
+    - Tengo tiempo a las [19:00](hora) el día [01/03/2024](fecha)
+
+- intent: Otro

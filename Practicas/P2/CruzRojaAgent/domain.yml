@@ -1,0 +1,27 @@
+version: "3.1"
+
+intents:
+  - Saludo
+  - Despedida
+  - Preguntar_clima
+  - Poner_radio
+  - Recetas_cocina
+  - Llamar_urgencias
+
+responses:
+  utter_saludo:
+    - text: "¡Hola! ¿En qué puedo ayudarte?"
+  utter_despedida:
+    - text: "Hasta luego. ¡Que tengas un buen día!"
+  utter_responde_clima:
+    - text: "A continuación se mostrará el clima en la ubicación establecida en este dispositivo"
+  utter_pon_radio:
+    - text: "¡Poniendo la radio!"
+  utter_muestra_recetas:
+    - text: "Aquí tienes algunas recetas para probar: https://www.bonviveur.es/recetas/"
+  utter_llama_urgencias:
+    - text: "Llamando al 112... Por favor, mantén la calma y proporciona la información necesaria al operador."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

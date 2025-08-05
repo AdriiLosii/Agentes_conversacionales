@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-fecha",
+      "2": "I-fecha",
+      "3": "L-fecha",
+      "4": "U-fecha",
+      "5": "B-hora",
+      "6": "I-hora",
+      "7": "L-hora",
+      "8": "U-hora",
+      "9": "B-tip_cita",
+      "10": "I-tip_cita",
+      "11": "L-tip_cita",
+      "12": "U-tip_cita",
+      "13": "B-tipo_cita",
+      "14": "I-tipo_cita",
+      "15": "L-tipo_cita",
+      "16": "U-tipo_cita",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-fecha": 1,
+      "I-fecha": 2,
+      "L-fecha": 3,
+      "U-fecha": 4,
+      "B-hora": 5,
+      "I-hora": 6,
+      "L-hora": 7,
+      "U-hora": 8,
+      "B-tip_cita": 9,
+      "I-tip_cita": 10,
+      "L-tip_cita": 11,
+      "U-tip_cita": 12,
+      "B-tipo_cita": 13,
+      "I-tipo_cita": 14,
+      "L-tipo_cita": 15,
+      "U-tipo_cita": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

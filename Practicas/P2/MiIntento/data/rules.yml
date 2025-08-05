@@ -1,0 +1,7 @@
+version: "3.1"
+
+rules:
+- rule: Say 'Lo siento, parece que no comprendí su mensaje.' anytime the user says predeterminado
+  steps:
+  - intent: Otro
+  - action: utter_respuesta_predeterminada

@@ -1,0 +1,49 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: Reserva cita OK 1
+  steps:
+  - user: |
+      Hola
+    intent: Saludo
+  - action: utter_saludo
+  - user: |
+      Quiero reservar una cita
+    intent: Solicitar_cita
+  - action: utter_pregunta_servicio_cita
+  - user: |
+      Cambio de aceite
+    intent: Servicio
+  - action: utter_pregunta_horario_cita
+  - user: |
+      El 09/05/2024 a las 19:00
+    intent: Fecha_hora
+  - action: utter_agenda_cita
+  - user: |
+      Chao
+    intent: Despedida
+  - action: utter_despedida
+
+- story: Reserva cita OK 2
+  steps:
+  - user: |
+      Buenas
+    intent: Saludo
+  - action: utter_saludo
+  - user: |
+      Me gustaría agendar una cita
+    intent: Solicitar_cita
+  - action: utter_pregunta_servicio_cita
+  - user: |
+      Revisión
+    intent: Servicio
+  - action: utter_pregunta_horario_cita
+  - user: |
+      El 15/10/2025 a las 09:30
+    intent: Fecha_hora
+  - action: utter_agenda_cita
+  - user: |
+      Nos vemos
+    intent: Despedida
+  - action: utter_despedida

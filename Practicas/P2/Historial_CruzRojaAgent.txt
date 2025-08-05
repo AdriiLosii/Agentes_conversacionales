@@ -1,0 +1,13 @@
+Your input ->  Hola
+¡Hola! ¿En qué puedo ayudarte?
+Your input ->  ¿Mañana va a llover?
+A continuación se mostrará el clima en la ubicación establecida en este dispositivo
+Your input ->  Me apetece cocinar algo
+Aquí tienes algunas recetas para probar: https://www.bonviveur.es/recetas/
+Your input ->  ¿Puedes poner algo de música?
+¡Poniendo la radio!
+Your input ->  Muchas gracias, adiós
+Hasta luego. ¡Que tengas un buen día!
+Your input ->  Necesito llamar a urgencias
+Llamando al 112... Por favor, mantén la calma y proporciona la información necesaria al operador.
+Your input ->

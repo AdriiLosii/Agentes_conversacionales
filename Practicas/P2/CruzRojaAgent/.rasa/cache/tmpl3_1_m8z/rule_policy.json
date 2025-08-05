@@ -1,0 +1,28 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Recetas_cocina\"}}]": "utter_muestra_recetas",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Recetas_cocina\"}}, {\"prev_action\": {\"action_name\": \"utter_muestra_recetas\"}, \"user\": {\"intent\": \"Recetas_cocina\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Otro\"}}]": "utter_respuesta_predeterminada",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Otro\"}}, {\"prev_action\": {\"action_name\": \"utter_respuesta_predeterminada\"}, \"user\": {\"intent\": \"Otro\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Poner_radio\"}}]": "utter_pon_radio",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Poner_radio\"}}, {\"prev_action\": {\"action_name\": \"utter_pon_radio\"}, \"user\": {\"intent\": \"Poner_radio\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Saludo\"}}]": "utter_saludo",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Saludo\"}}, {\"prev_action\": {\"action_name\": \"utter_saludo\"}, \"user\": {\"intent\": \"Saludo\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Preguntar_clima\"}}]": "utter_responde_clima",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Preguntar_clima\"}}, {\"prev_action\": {\"action_name\": \"utter_responde_clima\"}, \"user\": {\"intent\": \"Preguntar_clima\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Llamar_urgencias\"}}]": "utter_llama_urgencias",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Llamar_urgencias\"}}, {\"prev_action\": {\"action_name\": \"utter_llama_urgencias\"}, \"user\": {\"intent\": \"Llamar_urgencias\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Despedida\"}}]": "utter_despedida",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"Despedida\"}}, {\"prev_action\": {\"action_name\": \"utter_despedida\"}, \"user\": {\"intent\": \"Despedida\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "predicting default action with intent restart"
+    ]
+  }
+}

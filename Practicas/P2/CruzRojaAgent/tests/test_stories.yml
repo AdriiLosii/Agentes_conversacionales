@@ -1,0 +1,36 @@
+stories:
+- story: Usuario saluda y espera respuesta
+  steps:
+  - user: "¡Hola!"
+    intent: Saludo
+  - action: utter_saludo
+
+- story: Usuario se despide y espera respuesta
+  steps:
+  - user: "Hasta luego"
+    intent: Despedida
+  - action: utter_despedida
+
+- story: Usuario pregunta por el clima y espera respuesta
+  steps:
+  - user: "¿Qué tiempo hace ahora?"
+    intent: Preguntar_clima
+  - action: utter_responde_clima
+
+- story: Usuario pide poner la radio y espera respuesta
+  steps:
+  - user: "Pon la radio"
+    intent: Poner_radio
+  - action: utter_pon_radio
+
+- story: Usuario pide recetas de cocina y espera respuesta
+  steps:
+  - user: "Quiero hacer alguna receta"
+    intent: Recetas_cocina
+  - action: utter_muestra_recetas
+
+- story: Usuario solicita llamar a urgencias y espera respuesta
+  steps:
+  - user: "Llama a urgencias"
+    intent: Llamar_urgencias
+  - action: utter_llama_urgencias

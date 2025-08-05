@@ -1,0 +1,27 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohODGnNCW/tjYWAATaG9Y=": "utter_saludo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohODGnNCW/loAhpSUlqUXxxRC1OM2IBQDexDWq": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohODGnNCW/loAhpSUlqUXxxRC1ZJpByCGpRWWZyZn58cmZJYm1tbEAHAtSqw==": "utter_pregunta_servicio_cita",
+    "eJydjkEKgCAQRa/iATqB12gZMQw2xECNoaMb8e4JtmlltPsf3n/8pdTJlCtQBnTKXqwpPYDgSdY85eCoJI1NkUJjWFpVa2Y80ubrQJJUKUDs7E/H6AiFzI49OFb89qcBexJFiK/tSL3ezDx1/A==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohODGnNCW/loAhpSUlqUXxxRC1ZJpByCGpRWWZyZn58cmZJYnEuQeoIL00ryQxvhhFL2VGE3Cmf0kR0KexAAekj10=": "utter_respuesta_predeterminada",
+    "eJylkEEKAzEIRa+SA/QEuUQXXZYSJJEizJhBzWzC3L1CuikUMrQ7vzw/D+/9uIS+Ce4JslHlGPoYEsOKMbzDQmrIzjZFcYbYo8Vwg6WVekxKmhlK0sH+2DETQdkpU02ZDM75OPBsbJD04/a/6onm1eTktwR1a6iu52hBX63EUL74jc7HC3Zrr+U=": "action_listen",
+    "eJylkEEKAyEMAL/iA/oCz7330GMpEjSUwK4uSdyL+PcGtpeFgtLejIzjkEfrF9c2xj1AVCrZu3YcQoYVvfsMC4liNrYKsjGUbVTv7rDUVPpAUlWRgxzsj45RCPJOkUqIpDDXY8CrZoUgp7f/qQeZN+XJbTHKVlEsz9CEdrVShvSlb8Y5yLraZ5jI7P35Bs1DyyU=": "utter_despedida",
+    "eJylkEEKAyEMAL/iA/oCz7330GMpEjSUwK4uSdyL7N8b2LJQKFXam5FxHHJr28m1hXENEJVK9q7th5BhRu9ew0SimI2tgmwMZRvVuytMNZWtI6mqyEF29kdHLwR5pUglRFIY6zHgUbNCkLe3/6k7mRflwW0xylJRLM/QhHY1U4b0oW/E2ck622eYKA1uLh34N9P9CZ9K5y8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohODGnNCW/loAhpSUlqUXxxRC1ZJpBwCHO+XnFpTkliUXxQDOSM/OLa2tjAWvGVHY=": "utter_responde_precios",
+    "eJydjkEKgDAMBL/SB/iCXn2CR5FSNIdATUqSein+3YLi1eJtF2aHnes5uJoFjhBXQybv6h0CxR28e0pCNaDGFgVpDFKr5t0UU9n4/JAUM5CgN/vT8XFkZNKSLEpojhVZ+z4JaGba4F31iJcLykF3HQ==": "action_listen",
+    "eJylj0EKg0AMRa8yB+gJZtsjdCllCBpoYEwkyXQzePcGlG4V3eXD/4+Xoa+P1BfFb4HRSTinvh2FYcac9lDJHDm6zVCjQxzRc3pBbZOsB5Dmjlps615kHIg8ha1VBy3BGEnsnJOiLcIT/lf3wadFP6KgFI+/f8xWleg=": "utter_responde_horarios",
+    "eJylkEEKwzAMBL/iB/QFvuYJOZZiRCKowJWCJPdi8vcaEnxsTHvTwu4w6F73W6ib4jvB4iQcQz2OxPDCGM6QyRy5dYuhtg5xix7DDLmssl9AijtqsqP7I+NCZBK2kh00NcZCYmNOirYJr9hX/4OHRZ+ioDT4vC56rr6advLjA6gKuQA=": "action_listen",
+    "eJylkDEKwzAMRa/iA/QEWXuEjqUY1RFU4EpBkrsY372GhIyJaTd9+Ho86V7bJdRF8RMhOQlPoa5DZHjjFLaQyRy5d4uh9g5xjz6FG+QySzuBFHfUaGv3R8aJyFXYSnbQ2BmJxMacFG0RnnHf+h88LPoSBaXB5+2i29ah6SB52LQ8KUG/nVt7fAHyE9iE": "utter_responde_ubicacion",
+    "eJylkEEKwkAMRa8yB/AE3XoElyJDnAYMjEnJZNwMvbsDLe3ORt0l8P/jJdc2n0KbFF8RkpHwENoyRIYnDmFdMhVD7tlaUHuGuK82hAvkOsp8AKlmqLEs2R8ZByJn4VKzgcbOSCTF56RYJuERt9b/YLfoQxSUnM/bRNfWR1Mn2W1a75Sg385fuu49H/z2Bikv/Js=": "action_listen",
+    "eJytkE0KAyEMRq/iAXqC2bY36LIUSTXQgI1D1G7Euzcww8yu2p9dAt/38vRS28HUWfBpwWWKPJm6DJbhgZNZl0ApI2u2JBTNEOuaJ3OGUHxsHUjJGcWmJfsloyNyjJxKyCBWGY5iGnMSTHNkj1vrd/Cw6D0KCA1+3ia6tt6aDpKHTcuNHOjb+UPXvfcPeEf3pFfRk4fWri8UgRfq": "utter_despedida",
+    "eJytkE0KAyEMRq/iAXqC2bY36LIUSTXQgI1D1G5k7l5hBrsb059dAt/38vRSl4Ops+DTgssUeTJ1HSzDAyezLYFSRm7ZklBahriteTJnCMXHZQApOaPYtGa/ZAxEjpFTCRnENoajmHROgmmO7LG3fgerRe9RQEj5eV10a+2aKslq03IjB+3t/KHru/cP+ED31K6iJw86Sd/je6TrCxRuM/Q=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xErBv6Qov7Y2FgDOHxsS": "utter_respuesta_predeterminada",
+    "eJyFjMEJgDAMRVfJAE7QJRxApASbQ8GmJUm9lO5uQK/i7b/P421jLjCa0BXxsFw5wHhGZCwU4IUzqxG725XEncyOFmA1qfMn0c1IopC2TmoYXU3kV8mMCb+a+w0SHzua": "action_listen",
+    "eJyljkEKhDAMRa/SA8wJeoLZz1IkhE6QgKaSpt0U725BN64qusuHl8cb6vZxdVUqgME4inf1OEBwIe/OMXMyksbmRNoYljbNux/O+R+3jiSbkUI62IeOXghp4cARAhve62nAlMUQ0uX3nbqT+Y2Kp2fcAdjCkUM=": "utter_pregunta_horario_cita",
+    "eJyljjEKwzAMRa/iA+QEPkH3jKEI4YpUkMpFlrOY3L2CdEiH4pJuErz/eFPbhtCeSitgMs4SQ9sPEHxQDO9n4WIkztZC6gyLvxbDiEu95a0jqWakUHb2pKMXQrpy4gyJDX/rcWCuYgjlY/ufupN5yYpnEu++06+FB+v1BUSKsmo=": "action_listen",
+    "eJyljjEKwzAMRa/iA/QEnjt071iKELZoBakdJDmLyd0rSJcOxSHdJHj/8W59PYU+Cy2AybiWGPp2QMEXxfB5Jlaj4mxTEme4+GsxXHFqua4DSTMjAd3Yg45RCMnCiSskNtzX48CjFUPQr+1/6kHmpQoeSXz6Tn4W7rYO6s6kM2XO7rm/AVDZzao=": "utter_despedida",
+    "eJyljkEKAjEMRa/SA3iCrl24dylSQhs0MLZDks6mzN0NjAgutGXcJfD+413aenBtZlwCRKWSvWvbETI80LvXM5EoZmOrIBtD2V717gxTTWXtSKoqcpCN3enohSAvFKmESApjPQbcalYI8rH9T93JPBWGPYl32/HXwmFrp+6IMmOiNFiX3vgv0/UJ3VLptA==": "action_listen"
+  }
+}

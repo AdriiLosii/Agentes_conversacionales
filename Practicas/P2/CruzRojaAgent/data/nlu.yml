@@ -1,0 +1,65 @@
+version: "3.1"
+
+nlu:
+- intent: Saludo
+  examples: |
+    - ¡Hola!
+    - Buenos días
+    - Hola, podrías ayudarme?
+    - Hola, ¿hay alguien ahí?
+    - Buen día, ¿está disponible alguien para atenderme?
+    - Buenos días
+    - Buenas tardes
+    - Buenas noches
+    - Hola, buenos días
+    - ¡Hola! ¿Cómo estás?
+
+- intent: Despedida
+  examples: |
+    - Adiós
+    - Chao
+    - Hasta luego
+    - Nos vemos
+    - Hasta pronto
+    - Hasta mañana
+    - Buen día. Cierro la conversación por ahora.
+    - Eso es todo por ahora. ¡Hasta luego!
+    - Gracias por tu ayuda. ¡Adiós!
+    - Ha sido un placer hablar contigo. ¡Adiós por ahora!
+    - Eso es todo por ahora. ¡Adiós!
+    - Gracias por tu ayuda. ¡Hasta luego!
+
+- intent: Preguntar_clima
+  examples: |
+    - ¿Qué tiempo hace ahora?
+    - ¿Cuál es el clima de mañana?
+    - ¿Mañana lloverá?
+    - ¿Va a llover?
+    - Dame el tiempo para hoy
+    - Dime el tiempo para mañana
+    - ¿Mañana hará calor?
+
+- intent: Poner_radio
+  examples: |
+    - Pon la radio
+    - Quiero escuchar algo
+    - Me gustaría escuchar la radio
+    - Quiero escuchar la radio
+    - Pon algo de música
+
+- intent: Recetas_cocina
+  examples: |
+    - Quiero hacer alguna receta
+    - Me gustaría hacer una receta casera
+    - Me apetece cocinar algo
+    - ¿Puedes darme alguna receta?
+    - Quiero cocinar algo
+
+- intent: Llamar_urgencias
+  examples: |
+    - Llama a una ambulancia
+    - Llama a urgencias
+    - Urgencias
+    - Necesito una ambulancia
+    - Llama a un médico
+    - Llama al número de emergencia

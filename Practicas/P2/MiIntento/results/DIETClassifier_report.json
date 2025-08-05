@@ -1,0 +1,49 @@
+{
+  "fecha": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "tipo_cita": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "tip_cita": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1,
+    "confused_with": {}
+  },
+  "hora": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9047619047619048,
+    "recall": 1.0,
+    "f1-score": 0.9500000000000001,
+    "support": 19
+  },
+  "macro avg": {
+    "precision": 0.9272727272727272,
+    "recall": 1.0,
+    "f1-score": 0.9603174603174603,
+    "support": 19
+  },
+  "weighted avg": {
+    "precision": 0.9100478468899521,
+    "recall": 1.0,
+    "f1-score": 0.9515455304928989,
+    "support": 19
+  },
+  "accuracy": 0.9928825622775801
+}

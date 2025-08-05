@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - Saludo
+  - Despedida
+  - Solicitar_cita
+  - Servicio
+  - Fecha_hora
+  - Otro
+
+entities:
+  - tipo_servicio
+  - hora
+  - fecha
+
+responses:
+  utter_saludo:
+    - text: "¡Hola! Bienvenido al Taller Integral de Vehículos. Soy el agente conversacional de este taller. ¿En qué puedo ayudarte hoy?"
+  utter_despedida:
+    - text: "Gracias por contactarnos. Si necesitas ayuda en el futuro, no dudes en volver. ¡Que tengas un buen día!"
+  utter_pregunta_servicio_cita:
+    - text: "Por favor, indique a continuación qué tipo de servicio necesita."
+  utter_pregunta_horario_cita:
+    - text: "Por favor, indique a continuación la fecha y hora de su cita."
+  utter_agenda_cita:
+    - text: "Entendido, su cita con motivo: (tipo_servicio) a sido agendada para el dia (fecha) a las (hora)."
+  utter_respuesta_predeterminada:
+    - text: "Lo siento, parece que no comprendí su mensaje. ¿puede intentar reformularlo o proporcionar más detalles?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

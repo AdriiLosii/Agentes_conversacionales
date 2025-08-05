@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+- story: Saludo y pedir ayuda
+  steps:
+  - intent: Saludo
+  - action: utter_saludo
+
+- story: Despedida
+  steps:
+  - intent: Despedida
+  - action: utter_despedida
+
+- story: Consultar el clima
+  steps:
+  - intent: Preguntar_clima
+  - action: utter_responde_clima
+
+- story: Pedir poner la radio
+  steps:
+  - intent: Poner_radio
+  - action: utter_pon_radio
+
+- story: Consultar recetas de cocina
+  steps:
+  - intent: Recetas_cocina
+  - action: utter_muestra_recetas
+
+- story: Llamar a urgencias
+  steps:
+  - intent: Llamar_urgencias
+  - action: utter_llama_urgencias
